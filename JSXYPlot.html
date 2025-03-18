@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- JSXYPlot.html -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript XY-Ploting</title>
+  <link rel="stylesheet" href="css/JSXYPlot.css">
+  <script src="js/JSXYPlot.js"></script>
+</head>
+ 
+<body style="background: powderblue;margin-left: 500px;">
+  <h2>JavaScript Plotting</h2>
+  <table>
+    <tr>
+      <td>
+        <fieldset>
+          <legend>New</legend>
+          <label>X: <input type="text" size="3" id="newX"></label>
+          <label>Y: <input type="text" size="3" id="newY"></label>
+          <input id="btnCreate" type="button" value="CREATE">
+        </fieldset>
+      </td>
+      <td>
+        <fieldset>
+          <legend>Update</legend>
+          No: <select name="updateNo" id="updateNo" ></select>
+          <label>X: <input type="text" size="3" id="updateX"></label>
+          <label>Y: <input type="text" size="3" id="updateY"></label>
+          <input id="btnUpdate" type="button" value="UPDATE">
+        </fieldset>
+      </td>
+    </tr>
+  </table>
+ 
+  <!-- the container -->
+  <div id="box" style="background: powderblue;margin-left: 500px;"></div>
+  <!-- contains all the items and item description -->
+  <div id="allItems" style="background: powderblue;margin-left: 500px;"></div>
+</body>
+</html>
